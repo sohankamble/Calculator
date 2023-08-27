@@ -1,0 +1,57 @@
+body {
+    background: rgb(139, 88, 128); 
+    font-family: 'Shadows Into Light', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 600px;
+  margin: auto;
+  padding-top: 50px;
+  color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #942b2b;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #370d4d1e;
+    color: rgb(17, 15, 15);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .delete-button {
+    color: #ff0000;
+    cursor: pointer;
+}
+
